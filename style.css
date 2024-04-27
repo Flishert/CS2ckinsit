@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Rubik+Dirt&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+ 
+}
+
+
+.container{
+    height: 100px;
+    width: 100px;
+
+}
+
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    position: absolute;
+    z-index: 1;
+    height: 796px;
+    width: 680px;
+    top: 800px;
+    left: 20px;
+    
+}
+
+.video_ct{
+    max-width: 720px; /* Встановлюємо максимальну ширину контейнера, щоб відео не виходило за межі */
+    width: 1600px; /* Встановлюємо ширину контейнера відео (на ваш вибір) */
+    position: fixed;
+    overflow: hidden;
+}
+
+.video_ct video{
+    width: 2200px; /* Робимо відео розміром 100% ширини контейнера */
+    height: auto; /* Автоматична висота, щоб зберегти пропорції */
+}
+
+
+.info_pers img{
+    position: absolute;
+    width: 300px;
+    height: 220px;
+    z-index: 2;
+}
+
+
+.block_for_info{
+    background: linear-gradient(135deg, rgba(255, 75, 4, 0.596), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    z-index: 1;
+    position: absolute;
+    width: 480px;
+    height: 200px;
+    left: 240px;
+    top: 10px;
+}
+
+
+.text_in_block{
+    font-size: 50px;
+    text-align: center;
+    font-family: "Rubik Dirt", system-ui;
+    color: rgb(165, 128, 94);
+}
+
+.container img{
+    height: 400px;
+    width:  400px;
+    float: right;
+    padding: 15px;
+}
+
+.container p{
+    font-size: 35px;
+    font-family: "Rubik Dirt", system-ui;
+}
+
+
+.img_AWP img{
+    height: 200px;
+    width: 680px;
+    position: absolute;
+    z-index: 2;
+    bottom: 50px;
+    left: 20px;
+}
